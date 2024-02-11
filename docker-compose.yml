@@ -1,0 +1,8 @@
+services:
+  discordai:
+    image: nekogravitycat/discordai:latest
+    container_name: discordai
+    restart: on-failure
+    volumes:
+      - ./configs:/app/configs
+      - ./data:/app/data
