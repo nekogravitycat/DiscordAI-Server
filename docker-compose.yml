@@ -3,6 +3,8 @@ services:
     image: nekogravitycat/discordai:latest
     container_name: discordai
     restart: on-failure
+    env_file:
+      - ./.env/
     volumes:
       - ./configs:/app/configs
       - ./data:/app/data
