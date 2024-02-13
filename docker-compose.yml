@@ -4,7 +4,7 @@ services:
     container_name: discordai
     restart: on-failure
     env_file:
-      - ./.env/
+      - ./.env
     volumes:
       - ./configs:/app/cmd/DiscordAI/configs
       - ./data:/app/cmd/DiscordAI/data
