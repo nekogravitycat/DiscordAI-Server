@@ -18,7 +18,7 @@ This repository contains the necessary files to deploy [DiscordAI](https://githu
 
 4. Start DiscordAI using Docker:
     ```bash
-    docker-compose up -d
+    docker compose up -d
     ```
 
 ## Main Project
